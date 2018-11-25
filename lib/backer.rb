@@ -1,3 +1,5 @@
+require "pry"
+
 class Backer
   
   attr_accessor :name, :backed_projects
@@ -17,5 +19,5 @@ class Backer
   def self.backers
     @@all_backers
   end
-  
+  binding.pry
 end
