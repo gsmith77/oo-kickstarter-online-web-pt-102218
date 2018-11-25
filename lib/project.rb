@@ -3,6 +3,6 @@ class Project
   attr_accessor :title
   
   def initialize(title)
-    @titl= title
+    @title= title
   end
 end
