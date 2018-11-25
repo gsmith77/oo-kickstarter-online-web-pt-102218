@@ -19,5 +19,6 @@ class Backer
   def self.backers
     @@all_backers
   end
-  binding.pry
+  
+  
 end
